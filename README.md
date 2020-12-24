@@ -2,6 +2,9 @@
 
 This repository developed from ConSol/docker-headless-vnc-container, with provide the headless VNC environments for docker container
 
+* 'sudo docker run --name ros_env --mount type=bind,source=/home/billy/ROS_Program,target=/home/ros/ros_workspaces -itd -p 5901:5901 -p 6901:6901 henry2423/ros-vnc-ubuntu:latest'
+
+
 ## Current Image Build:
 * `henry2423/ros-vnc-ubuntu:kinetic` : __Ubuntu 16.04 with `ROS Kinetic + Gazebo 8`__
 
